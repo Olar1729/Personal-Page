@@ -1,3 +1,5 @@
+import { HomePage } from "@/components/pages/HomePage";
+
 export default function Page() {
-  return <h1>Cristian Olarte</h1>;
+  return <HomePage locale="en" />;
 }
