@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { TalksPage } from "@/components/pages/TalksPage";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = { title: "Charlas" };
+export const metadata = pageMetadata("talks", "es");
 
 export default function Page() {
   return <TalksPage locale="es" />;

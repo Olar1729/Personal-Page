@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { PublicationsPage } from "@/components/pages/PublicationsPage";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = { title: "Publications" };
+export const metadata = pageMetadata("publications", "en");
 
 export default function Page() {
   return <PublicationsPage locale="en" />;

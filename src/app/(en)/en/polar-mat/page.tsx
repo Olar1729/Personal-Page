@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { PolarMatPage } from "@/components/pages/PolarMatPage";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = { title: "Polar Mat" };
+export const metadata = pageMetadata("polarMat", "en");
 
 export default function Page() {
   return <PolarMatPage locale="en" />;
