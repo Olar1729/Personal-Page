@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { Menu } from "lucide-react";
 import { sectionCounts, profile } from "@/content";
 import { t, type Locale } from "@/lib/i18n";
 import { SECTION_LABELS, UI } from "@/lib/labels";
 import { pathFor } from "@/lib/routes";
 import { visibleSections } from "@/lib/sections";
 import { LanguageSwitch } from "./LanguageSwitch";
+import { MobileMenu } from "./MobileMenu";
 import { ThemeToggle } from "./ThemeToggle";
 
 export function SiteHeader({ locale }: { locale: Locale }) {
@@ -41,25 +41,13 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         <div className="flex items-center gap-2">
           <LanguageSwitch locale={locale} label={t(UI.switchLanguage, locale)} />
           <ThemeToggle label={t(UI.toggleTheme, locale)} />
-          {/* Menú móvil sin JavaScript */}
-          <details className="group relative lg:hidden">
-            <summary
-              className="list-none rounded-full p-2 text-muted-foreground hover:text-mint [&::-webkit-details-marker]:hidden"
-              aria-label={t(UI.menu, locale)}
-            >
-              <Menu className="size-5" aria-hidden />
-            </summary>
-            <nav
-              aria-label={t(UI.mainNav, locale)}
-              className="absolute right-0 mt-2 w-56 rounded-lg border border-line bg-surface p-4 shadow-lg"
-            >
-              <ul className="space-y-2">
-                {links.map((link) => (
-                  <li key={link.key}>{link}</li>
-                ))}
-              </ul>
-            </nav>
-          </details>
+          <MobileMenu label={t(UI.menu, locale)} navLabel={t(UI.mainNav, locale)}>
+            <ul className="space-y-2">
+              {links.map((link) => (
+                <li key={link.key}>{link}</li>
+              ))}
+            </ul>
+          </MobileMenu>
         </div>
       </div>
     </header>
