@@ -2,7 +2,7 @@ import type { L10n } from "@/lib/i18n";
 import type { HomeSection } from "./types";
 
 // Español: texto de Cristian, literal. No reescribir.
-// Inglés: BORRADOR: revisar con Cristian (reescrito, no traducido literalmente).
+// Inglés: reescrito (no traducido literalmente); aprobado por Cristian el 2026-11-19.
 
 export const tagline: L10n = {
   es: "Matemático. Doy clases, investigo geometría y hago videos con osos polares.",

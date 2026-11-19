@@ -1,7 +1,7 @@
 import type { L10n } from "@/lib/i18n";
 import type { Course } from "./types";
 
-// BORRADOR: revisar con Cristian — intro en su voz.
+// Intro en su voz; aprobada por Cristian el 2026-11-19.
 export const teachingIntro: L10n = {
   es: "Llevo varios años enseñando matemáticas en la universidad, sobre todo a estudiantes de primeros semestres de ingeniería y ciencias. Me interesa que una idea difícil se vuelva obvia.",
   en: "I've spent several years teaching university mathematics, mostly to first-year engineering and science students. What I care about is making a hard idea feel obvious.",

@@ -42,7 +42,7 @@ export const publications: Publication[] = [
   },
   {
     id: "differential-operators",
-    // BORRADOR: revisar con Cristian — título provisional en inglés.
+    // Título en inglés aprobado por Cristian el 2026-11-19 (provisional hasta el preprint).
     title: "Differential operators of order k on C^∞-schemes and Batchelor spaces",
     authors: ["C. D. Olarte"],
     status: "inPreparation",

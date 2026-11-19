@@ -1,7 +1,7 @@
 import type { L10n } from "@/lib/i18n";
 import type { ResearchLine } from "./types";
 
-// BORRADOR: revisar con Cristian — intro en su voz.
+// Intro en su voz; aprobada por Cristian el 2026-11-19.
 export const researchIntro: L10n = {
   es: "Me interesa saber hasta dónde llegan las herramientas del álgebra cuando las llevamos al mundo de lo suave. Esta es la versión técnica de esa pregunta.",
   en: "I want to know how far the tools of algebra reach once we carry them into the smooth world. This is the technical version of that question.",
