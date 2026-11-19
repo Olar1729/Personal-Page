@@ -6,7 +6,7 @@ export { profile } from "./profile";
 export { tagline, taglineHighlight, homeSections, contactHeading } from "./home";
 export { researchIntro, researchProgram, researchLines, nextInterests } from "./research";
 export { publications } from "./publications";
-export { teachingIntro, coursesTaught, coursesCanTeach } from "./teaching";
+export { teachingIntro, coursesTaught } from "./teaching";
 export { talks } from "./talks";
 export { polarMatDescription, featuredVideos } from "./polarMat";
 export { cvPdfUrl, cvProfile, skills, languages } from "./cv";

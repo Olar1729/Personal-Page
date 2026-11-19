@@ -13,16 +13,7 @@ export const coursesTaught: Course[] = [
   { id: "calc-3", title: { es: "Cálculo Vectorial", en: "Vector Calculus" } },
   { id: "linear-algebra", title: { es: "Álgebra Lineal", en: "Linear Algebra" } },
   { id: "euclidean", title: { es: "Geometría Euclidiana", en: "Euclidean Geometry" } },
-];
-
-export const coursesCanTeach: Course[] = [
-  {
-    id: "probability",
-    title: {
-      es: "Probabilidad y Estadística para ingeniería, ciencia de datos, física y economía",
-      en: "Probability and Statistics for engineering, data science, physics and economics",
-    },
-  },
+  { id: "probability", title: { es: "Probabilidad y Estadística", en: "Probability and Statistics" } },
   {
     id: "stochastic",
     title: {

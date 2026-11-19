@@ -221,8 +221,7 @@ En preparación:
 Propuesta de investigación: plan de trabajo sobre el programa de geometría C^∞, preparado para postulación a posdoctorado. *(PDF pendiente; no se enlaza hasta que exista.)*
 
 **Docencia.** Varios años dictando cursos de matemáticas a nivel universitario, principalmente para primeros años de ingeniería y ciencias.
-- Cursos dictados: Cálculo Diferencial, Cálculo Integral, Cálculo Vectorial, Álgebra Lineal, Geometría Euclidiana.
-- Áreas que puede asumir: Probabilidad y Estadística (ingeniería, ciencia de datos, física, economía); Procesos Estocásticos y Cálculo Estocástico; Ecuaciones Diferenciales Ordinarias.
+- Cursos dictados (actualizado por Cristian el 2026-11-19; una sola lista, sin "áreas que puede asumir"): Cálculo Diferencial, Cálculo Integral, Cálculo Vectorial, Álgebra Lineal, Geometría Euclidiana, Probabilidad y Estadística, Procesos Estocásticos y Cálculo Estocástico, Ecuaciones Diferenciales Ordinarias.
 - Materiales: talleres, parciales y notas de clase propias (selección descargable en el futuro, cuando Cristian los entregue).
 
 **Polar Mat.** Canal de YouTube de matemáticas (@osopolarmat): matemáticas explicadas visualmente y problemas tipo olimpiada, en español. La idea es descubrir las matemáticas, aprender a pensar y divertirse. Animaciones con manimgx. Proyecto relacionado: repositorio de ejercicios resueltos (en construcción; no se muestra hasta que exista).

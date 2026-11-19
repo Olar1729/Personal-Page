@@ -32,6 +32,21 @@ describe("contenido bilingüe", () => {
     ]);
   });
 
+  it("docencia lista solo cursos dictados, sin Geometría Diferencial", () => {
+    expect(content.coursesTaught.map((c) => c.title.es)).toEqual([
+      "Cálculo Diferencial",
+      "Cálculo Integral",
+      "Cálculo Vectorial",
+      "Álgebra Lineal",
+      "Geometría Euclidiana",
+      "Probabilidad y Estadística",
+      "Procesos Estocásticos y Cálculo Estocástico",
+      "Ecuaciones Diferenciales Ordinarias",
+    ]);
+    expect(JSON.stringify(content)).not.toMatch(/Geometría Diferencial|Differential Geometry/);
+    expect(content).not.toHaveProperty("coursesCanTeach");
+  });
+
   it("oculta charlas mientras no haya ninguna", () => {
     expect(content.sectionCounts().talks).toBe(0);
   });
